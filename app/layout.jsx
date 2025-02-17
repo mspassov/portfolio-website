@@ -1,6 +1,7 @@
 import React from "react";
 import "@/assets/global.css";
 import "@/assets/nav.css";
+import "@/assets/hero.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {

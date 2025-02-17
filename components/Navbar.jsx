@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav>
       <div className="container navbar">
         <Link href="/" className="link">
-          <h1>Martin Spassov</h1>
+          <h1>Martin</h1>
         </Link>
         <ul className="nav-menu-list">
           <li>
@@ -84,6 +84,8 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+
+      <div className="left-blur"></div>
     </nav>
   );
 };
