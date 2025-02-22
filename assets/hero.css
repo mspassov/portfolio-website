@@ -21,9 +21,17 @@
     margin-bottom: 1.3rem;
 }
 
-.text-content p{
-    font-size: 1.1rem;
+.text-content .text-summary{
+    font-size: 1.2rem;
     margin-bottom: 2rem;
+}
+
+.text-content .location-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
 }
 
 .text-content .btn{
@@ -71,6 +79,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+
+    .text-content .location-container{
         justify-content: center;
     }
 
