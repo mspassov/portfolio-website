@@ -3,6 +3,7 @@ import "@/assets/global.css";
 import "@/assets/nav.css";
 import "@/assets/hero.css";
 import "@/assets/about.css";
+import "@/assets/technologies.css";
 import "@/assets/footer.css";
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar";

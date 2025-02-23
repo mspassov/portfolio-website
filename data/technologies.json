@@ -1,0 +1,50 @@
+[
+    {
+        "icon": "/react-icon.webp",
+        "title": "React",
+        "secondary": "JavaScript Library",
+        "color": "rgba(156, 199, 226, 0.2)"
+    },
+    {
+        "icon": "/next-icon.png",
+        "title": "NextJS",
+        "secondary": "React Framework",
+        "color": "rgba(255, 255, 255, 0.195)"
+    },
+    {
+        "icon": "/express-icon.webp",
+        "title": "Express",
+        "secondary": "NodeJS Framework",
+        "color": "rgba(206, 206, 206, 0.255)"
+    },
+    {
+        "icon": "/html-icon.png",
+        "title": "HTML and CSS",
+        "secondary": "Web Building Blocks",
+        "color": "rgba(255, 183, 239, 0.255)"
+    },
+    {
+        "icon": "/mongo-icon.png",
+        "title": "MongoDB",
+        "secondary": "No-SQL Database",
+        "color": "rgba(161, 210, 169, 0.255)"
+    },
+    {
+        "icon": "/git-icon.png",
+        "title": "Git",
+        "secondary": "Version Control",
+        "color": "rgba(231, 163, 91, 0.184)"
+    },
+    {
+        "icon": "/figma-icon.webp",
+        "title": "Figma",
+        "secondary": "Design Tool",
+        "color": "rgba(0, 255, 251, 0.151)"
+    },
+    {
+        "icon": "/python-icon.png",
+        "title": "Python",
+        "secondary": "Scripting Language",
+        "color": "rgba(232, 246, 126, 0.184)"
+    }
+]
