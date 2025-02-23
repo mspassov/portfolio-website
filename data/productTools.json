@@ -1,0 +1,38 @@
+[
+    {
+        "icon": "/jira-icon.png",
+        "title": "Jira (Atlassian Suite)",
+        "secondary": "Agile Project Management",
+        "color": "rgba(127, 214, 254, 0.148)"
+    },
+    {
+        "icon": "/mysql-icon.png",
+        "title": "MySQL",
+        "secondary": "Database Querying",
+        "color": "rgba(55, 53, 71, 0.332)"
+    },
+    {
+        "icon": "/postman-icon.png",
+        "title": "Postman",
+        "secondary": "API Testing",
+        "color": "rgba(255, 189, 141, 0.332)"
+    },
+    {
+        "icon": "/notion-icon.png",
+        "title": "Notion",
+        "secondary": "Documentation Tool",
+        "color": "rgba(217, 217, 217, 0.397)"
+    },
+    {
+        "icon": "/miro-icon.webp",
+        "title": "Miro",
+        "secondary": "Ideation and Collaboration Tool",
+        "color": "rgba(247, 255, 96, 0.227)"
+    },
+    {
+        "icon": "/analytics-icon.png",
+        "title": "Analytics",
+        "secondary": "Google Analytics, Amplitude, Pendo",
+        "color": "rgba(153, 199, 203, 0.474)"
+    }
+]
