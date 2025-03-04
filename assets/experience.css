@@ -1,3 +1,4 @@
+/* Product Experience Styling */
 .experience{
     background-color: var(--color-bg);
     color: white;
@@ -49,6 +50,28 @@
     }
 }
 
+.experience-card .card-text .btn {
+    background-color: var(--primary);
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 2rem auto 0rem;
+    width: 300px;
+
+    &:hover{
+        background-color: var(--secondary);
+    }
+}
+
+#details-link:hover {
+    color: white;
+}
+
 .experience-card .card-details{
     display: flex;
     align-items: center;
@@ -80,5 +103,28 @@
     }
 }
 
+/* Web Development Styling */
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
+.project-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--dark);
+    border-radius: 8px;
+}
 
+.project-card .left-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card .project-img{
+    height: auto;
+    border-radius: 8px;
+}
