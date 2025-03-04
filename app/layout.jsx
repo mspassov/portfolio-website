@@ -5,6 +5,7 @@ import "@/assets/hero.css";
 import "@/assets/about.css";
 import "@/assets/technologies.css";
 import "@/assets/footer.css";
+import '@/assets/experience.css'
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";

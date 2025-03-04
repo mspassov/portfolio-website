@@ -44,7 +44,7 @@ const Technologies = () => {
                   style={{ "background-color": `${item.color}` }}
                 >
                   <Image
-                    className={(index == 0 || index == 4) && "override-img"}
+                    className={index == 0 || index == 4 ? "override-img" : ""}
                     src={item.icon}
                     width={50}
                     height={50}

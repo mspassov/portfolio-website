@@ -1,0 +1,43 @@
+.experience{
+    background-color: var(--color-bg);
+    color: white;
+    padding-top: 6rem;
+}
+
+.experience h2{
+    font-size: 34px;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.experience-flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.experience-card{
+    background-color: var(--dark);
+    padding: 0.5rem;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.experience-card .card-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-card .card-image{
+    border-radius: 8px;
+    height: auto;
+}
+
+.experience-card .card-text{
+    padding: 1rem 0.5rem;
+}
+
+
+
