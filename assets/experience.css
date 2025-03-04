@@ -22,6 +22,12 @@
     padding: 0.5rem;
     border-radius: 8px;
     flex: 1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    
+    &:hover {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+    }
 }
 
 .experience-card .card-image-container{
@@ -37,6 +43,41 @@
 
 .experience-card .card-text{
     padding: 1rem 0.5rem;
+
+    h3{
+        margin: 0.5rem 0;   
+    }
+}
+
+.experience-card .card-details{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+
+    .details-icon{
+        margin-right: 10px;
+        font-size: 20px;
+        color: #6acaed;
+    }
+}
+
+@media (max-width: 1200px){
+    .experience-flex{
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .experience-card{
+        width: 370px;
+    }
+}
+
+@media (max-width: 570px){
+    .experience h2{
+        text-align: center;
+        font-size: 32px;
+    }
 }
 
 
