@@ -132,7 +132,33 @@ const Experience = () => {
             <div className="project-card">
               <div className="left-img">
                 <Image
-                  src="/postPurchase.png"
+                  src="/propertyPulseImg.png"
+                  alt="test-for-now"
+                  width={350}
+                  height={0}
+                  className="project-img"
+                />
+              </div>
+              <div className="right-text">
+                <h3>PropertyPulse</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, and there lam nubin andjo kiljsu
+                </p>
+                <div className="tech-stack-flex">
+                    <div className="tech-pill">NextJS</div>
+                    <div className="tech-pill">NextJS</div>
+                    <div className="tech-pill">NextJS</div>
+                </div>
+                <div className="project-details-flex">
+                    <div className="source-btn project-btn">Source </div>
+                    <div className="demo-btn project-btn">Demo</div>
+                </div>
+              </div>
+            </div>
+            <div className="project-card">
+              <div className="left-img">
+                <Image
+                  src="/flixxImg.png"
                   alt="test-for-now"
                   width={250}
                   height={0}
@@ -140,7 +166,7 @@ const Experience = () => {
                 />
               </div>
               <div className="right-text">
-                <h3>PropertyPulse</h3>
+                <h3>Flixx Movies</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Quisquam, vitae!
@@ -150,7 +176,7 @@ const Experience = () => {
             <div className="project-card">
               <div className="left-img">
                 <Image
-                  src="/postPurchase.png"
+                  src="/cryptosquared.png"
                   alt="test-for-now"
                   width={250}
                   height={0}
@@ -158,7 +184,7 @@ const Experience = () => {
                 />
               </div>
               <div className="right-text">
-                <h3>PropertyPulse</h3>
+                <h3>CryptoSquared</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Quisquam, vitae!
@@ -168,7 +194,7 @@ const Experience = () => {
             <div className="project-card">
               <div className="left-img">
                 <Image
-                  src="/postPurchase.png"
+                  src="/pocketworld.png"
                   alt="test-for-now"
                   width={250}
                   height={0}
@@ -176,25 +202,7 @@ const Experience = () => {
                 />
               </div>
               <div className="right-text">
-                <h3>PropertyPulse</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quisquam, vitae!
-                </p>
-              </div>
-            </div>
-            <div className="project-card">
-              <div className="left-img">
-                <Image
-                  src="/postPurchase.png"
-                  alt="test-for-now"
-                  width={250}
-                  height={0}
-                  className="project-img"
-                />
-              </div>
-              <div className="right-text">
-                <h3>PropertyPulse</h3>
+                <h3>Pocket World</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Quisquam, vitae!
