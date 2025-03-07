@@ -8,7 +8,7 @@
 .experience h2{
     font-size: 34px;
     font-weight: 700;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .experience-flex{
@@ -105,14 +105,19 @@
 
 /* Web Development Styling */
 .projects-grid{
-    /* display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px; */
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
 
+}
+
+.project-card:nth-child(even) {
+    flex-direction: row-reverse;
+
+    .right-text{
+        margin-left: 20px;
+    }
 }
 
 .project-card{
@@ -156,6 +161,10 @@
     margin: 5px 15px;
 }
 
+.project-details-flex .link:hover{
+    color: white;
+}
+
 .project-card .project-btn{
     margin: 10px;
     padding: 5px 10px;
@@ -164,8 +173,19 @@
 
 .project-card .source-btn{
     background-color: var(--primary);
+    transition: ease 0.3s;
+
+    &:hover{
+        background-color: var(--secondary);
+    }
 }
 
 .project-card .demo-btn{
     background-color: rgb(24, 158, 95);
+
+    transition: ease 0.3s;
+    
+    &:hover {
+        background-color: rgb(15, 101, 61);
+    }
 }

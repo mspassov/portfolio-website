@@ -145,13 +145,25 @@ const Experience = () => {
                   Lorem ipsum dolor sit amet, and there lam nubin andjo kiljsu
                 </p>
                 <div className="tech-stack-flex">
-                    <div className="tech-pill">NextJS</div>
-                    <div className="tech-pill">NextJS</div>
-                    <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">NextJS</div>
                 </div>
                 <div className="project-details-flex">
+                  <a
+                    href="https://github.com/mspassov/property-pulse-nextjs"
+                    target="_blank"
+                    className="link"
+                  >
                     <div className="source-btn project-btn">Source </div>
+                  </a>
+                  <a
+                    href="https://property-pulse-nextjs-ten.vercel.app/"
+                    target="_blank"
+                    className="link"
+                  >
                     <div className="demo-btn project-btn">Demo</div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -160,7 +172,7 @@ const Experience = () => {
                 <Image
                   src="/flixxImg.png"
                   alt="test-for-now"
-                  width={250}
+                  width={350}
                   height={0}
                   className="project-img"
                 />
@@ -171,6 +183,27 @@ const Experience = () => {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Quisquam, vitae!
                 </p>
+                <div className="tech-stack-flex">
+                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">NextJS</div>
+                </div>
+                <div className="project-details-flex">
+                  <a
+                    href="https://github.com/mspassov/the-movie-DB"
+                    target="_blank"
+                    className="link"
+                  >
+                    <div className="source-btn project-btn">Source </div>
+                  </a>
+                  <a
+                    href="https://flixx-movie-db.netlify.app/"
+                    target="_blank"
+                    className="link"
+                  >
+                    <div className="demo-btn project-btn">Demo</div>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="project-card">
@@ -178,7 +211,7 @@ const Experience = () => {
                 <Image
                   src="/cryptosquared.png"
                   alt="test-for-now"
-                  width={250}
+                  width={350}
                   height={0}
                   className="project-img"
                 />
@@ -189,6 +222,27 @@ const Experience = () => {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Quisquam, vitae!
                 </p>
+                <div className="tech-stack-flex">
+                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">NextJS</div>
+                </div>
+                <div className="project-details-flex">
+                  <a
+                    href="https://github.com/mspassov/Crypto-Squared"
+                    target="_blank"
+                    className="link"
+                  >
+                    <div className="source-btn project-btn">Source </div>
+                  </a>
+                  <a
+                    href="https://github.com/mspassov/Crypto-Squared"
+                    target="_blank"
+                    className="link"
+                  >
+                    <div className="demo-btn project-btn">Demo</div>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="project-card">
@@ -196,7 +250,7 @@ const Experience = () => {
                 <Image
                   src="/pocketworld.png"
                   alt="test-for-now"
-                  width={250}
+                  width={350}
                   height={0}
                   className="project-img"
                 />
@@ -207,6 +261,27 @@ const Experience = () => {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Quisquam, vitae!
                 </p>
+                <div className="tech-stack-flex">
+                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">NextJS</div>
+                </div>
+                <div className="project-details-flex">
+                  <a
+                    href="https://github.com/mspassov/Pocket-World"
+                    target="_blank"
+                    className="link"
+                  >
+                    <div className="source-btn project-btn">Source </div>
+                  </a>
+                  <a
+                    href="https://pocket-world.netlify.app/"
+                    target="_blank"
+                    className="link"
+                  >
+                    <div className="demo-btn project-btn">Demo</div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
