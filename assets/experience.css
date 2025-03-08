@@ -127,9 +127,16 @@
     background-color: var(--dark);
     border-radius: 8px;
     max-width: 800px;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    }
 }
 
-.project-card .left-img{
+.project-card .left-img a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,5 +194,23 @@
     
     &:hover {
         background-color: rgb(15, 101, 61);
+    }
+}
+
+@media (max-width: 690px){
+    .project-card{
+        display: block;
+        max-width: 350px;
+    }
+
+    .project-card .right-text{
+        margin: 15px;
+    }
+
+    .project-card:nth-child(even) {
+
+        .right-text {
+            margin: 15px;
+        }
     }
 }

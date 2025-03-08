@@ -131,13 +131,19 @@ const Experience = () => {
           <div className="projects-grid">
             <div className="project-card">
               <div className="left-img">
-                <Image
-                  src="/propertyPulseImg.png"
-                  alt="test-for-now"
-                  width={350}
-                  height={0}
-                  className="project-img"
-                />
+                <a
+                  href="https://property-pulse-nextjs-ten.vercel.app/"
+                  target="_blank"
+                  className="link"
+                >
+                  <Image
+                    src="/propertyPulseImg.png"
+                    alt="test-for-now"
+                    width={350}
+                    height={0}
+                    className="project-img"
+                  />
+                </a>
               </div>
               <div className="right-text">
                 <h3>PropertyPulse</h3>
@@ -169,13 +175,19 @@ const Experience = () => {
             </div>
             <div className="project-card">
               <div className="left-img">
-                <Image
-                  src="/flixxImg.png"
-                  alt="test-for-now"
-                  width={350}
-                  height={0}
-                  className="project-img"
-                />
+                <a
+                  href="https://flixx-movie-db.netlify.app/"
+                  target="_blank"
+                  className="link"
+                >
+                  <Image
+                    src="/flixxImg.png"
+                    alt="test-for-now"
+                    width={350}
+                    height={0}
+                    className="project-img"
+                  />
+                </a>
               </div>
               <div className="right-text">
                 <h3>Flixx Movies</h3>
@@ -208,13 +220,19 @@ const Experience = () => {
             </div>
             <div className="project-card">
               <div className="left-img">
-                <Image
-                  src="/cryptosquared.png"
-                  alt="test-for-now"
-                  width={350}
-                  height={0}
-                  className="project-img"
-                />
+                <a
+                  href="https://crypto-squared.netlify.app/"
+                  target="_blank"
+                  className="link"
+                >
+                  <Image
+                    src="/cryptosquared.png"
+                    alt="test-for-now"
+                    width={350}
+                    height={0}
+                    className="project-img"
+                  />
+                </a>
               </div>
               <div className="right-text">
                 <h3>CryptoSquared</h3>
@@ -236,7 +254,7 @@ const Experience = () => {
                     <div className="source-btn project-btn">Source </div>
                   </a>
                   <a
-                    href="https://github.com/mspassov/Crypto-Squared"
+                    href="https://crypto-squared.netlify.app/"
                     target="_blank"
                     className="link"
                   >
@@ -247,13 +265,19 @@ const Experience = () => {
             </div>
             <div className="project-card">
               <div className="left-img">
-                <Image
-                  src="/pocketworld.png"
-                  alt="test-for-now"
-                  width={350}
-                  height={0}
-                  className="project-img"
-                />
+                <a
+                  href="https://pocket-world.netlify.app/"
+                  target="_blank"
+                  className="link"
+                >
+                  <Image
+                    src="/pocketworld.png"
+                    alt="test-for-now"
+                    width={350}
+                    height={0}
+                    className="project-img"
+                  />
+                </a>
               </div>
               <div className="right-text">
                 <h3>Pocket World</h3>
