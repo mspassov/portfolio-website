@@ -7,6 +7,7 @@ import "@/assets/technologies.css";
 import "@/assets/footer.css";
 import "@/assets/experience.css";
 import "@/assets/contact.css";
+import "@/assets/experiencePage.css";
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";

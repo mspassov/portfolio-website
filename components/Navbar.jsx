@@ -18,22 +18,22 @@ const Navbar = () => {
         </Link>
         <ul className="nav-menu-list">
           <li>
-            <Link href="#about" className="link">
+            <Link href="/#about" className="link">
               About
             </Link>
           </li>
           <li>
-            <Link href="#experience" className="link">
+            <Link href="/#experience" className="link">
               Experience
             </Link>
           </li>
           <li>
-            <Link href="#projects" className="link">
+            <Link href="/#projects" className="link">
               Projects
             </Link>
           </li>
           <li>
-            <Link href="#contact" className="link">
+            <Link href="/#contact" className="link">
               Contact
             </Link>
           </li>
@@ -63,22 +63,22 @@ const Navbar = () => {
       <div className={`mobile-menu ${isOpen ? "active" : ""}`}>
         <ul className="mobile-menu-list">
           <li>
-            <Link href="#about" className="link">
+            <Link href="/#about" className="link">
               About
             </Link>
           </li>
           <li>
-            <Link href="#experience" className="link">
+            <Link href="/#experience" className="link">
               Experience
             </Link>
           </li>
           <li>
-            <Link href="#projects" className="link">
+            <Link href="/#projects" className="link">
               Projects
             </Link>
           </li>
           <li>
-            <Link href="#contact" className="link">
+            <Link href="/#contact" className="link">
               Contact
             </Link>
           </li>
