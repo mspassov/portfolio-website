@@ -125,7 +125,7 @@ const Experience = () => {
         </div>
       </section>
 
-      <section className="experience">
+      <section className="experience projects">
         <div className="container">
           <h2>Web Development Projects</h2>
           <div className="projects-grid">
