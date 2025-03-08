@@ -1,5 +1,17 @@
 footer{
     background-color: var(--color-bg);
     color: white;
-    height: 120px;
+    padding: 40px 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-source{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }

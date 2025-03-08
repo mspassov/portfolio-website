@@ -5,7 +5,7 @@ import { FaRocket, FaCode, FaGraduationCap } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="container">
         <div className="about-container">
           <h2>About Me</h2>

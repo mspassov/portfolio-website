@@ -6,7 +6,7 @@ import { FaCity, FaCalendarAlt } from "react-icons/fa";
 const Experience = () => {
   return (
     <>
-      <section className="experience">
+      <section className="experience" id="experience">
         <div className="container">
           <h2>Product Management Experience</h2>
           <div className="experience-flex">
@@ -125,7 +125,7 @@ const Experience = () => {
         </div>
       </section>
 
-      <section className="experience projects">
+      <section className="experience projects" id="projects">
         <div className="container">
           <h2>Web Development Projects</h2>
           <div className="projects-grid">
@@ -148,12 +148,14 @@ const Experience = () => {
               <div className="right-text">
                 <h3>PropertyPulse</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, and there lam nubin andjo kiljsu
+                  An online marketplace for finding a rental. Full stack
+                  application with Airbnb-like functionality
                 </p>
                 <div className="tech-stack-flex">
                   <div className="tech-pill">NextJS</div>
-                  <div className="tech-pill">NextJS</div>
-                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">Tailwind</div>
+                  <div className="tech-pill">Google OAuth</div>
+                  <div className="tech-pill">Cloudinary</div>
                 </div>
                 <div className="project-details-flex">
                   <a
@@ -192,13 +194,13 @@ const Experience = () => {
               <div className="right-text">
                 <h3>Flixx Movies</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quisquam, vitae!
+                  An application to help users decide what to watch next. Uses
+                  the MovieDB API to fetch the latest releases
                 </p>
                 <div className="tech-stack-flex">
-                  <div className="tech-pill">NextJS</div>
-                  <div className="tech-pill">NextJS</div>
-                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">HTML</div>
+                  <div className="tech-pill">CSS</div>
+                  <div className="tech-pill">JavaScript</div>
                 </div>
                 <div className="project-details-flex">
                   <a
@@ -237,13 +239,13 @@ const Experience = () => {
               <div className="right-text">
                 <h3>CryptoSquared</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quisquam, vitae!
+                  FinTech dashboard for tracking price movements of all major
+                  crypto currencies, and performing financial crypto research
                 </p>
                 <div className="tech-stack-flex">
-                  <div className="tech-pill">NextJS</div>
-                  <div className="tech-pill">NextJS</div>
-                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">React</div>
+                  <div className="tech-pill">Redux</div>
+                  <div className="tech-pill">Ant Design</div>
                 </div>
                 <div className="project-details-flex">
                   <a
@@ -282,13 +284,12 @@ const Experience = () => {
               <div className="right-text">
                 <h3>Pocket World</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quisquam, vitae!
+                  A tool for Foodies – provides information on all restaurants
+                  around you. Uses the Google Maps and Yelp API to fetch results
                 </p>
                 <div className="tech-stack-flex">
-                  <div className="tech-pill">NextJS</div>
-                  <div className="tech-pill">NextJS</div>
-                  <div className="tech-pill">NextJS</div>
+                  <div className="tech-pill">React</div>
+                  <div className="tech-pill">RapidAPI</div>
                 </div>
                 <div className="project-details-flex">
                   <a

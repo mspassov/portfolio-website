@@ -7,7 +7,7 @@ const Contact = () => {
   const email = user + "@" + domain;
 
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="container contact-container">
         <div className="contact-text">
           <h1>Contact Me</h1>
