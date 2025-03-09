@@ -62,7 +62,9 @@
     }
 
     .contact-icons{
-        justify-content: center;
+        justify-content: start;
+        max-width: 170px;
+        margin: 0 auto;
     }
 }
 
