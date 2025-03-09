@@ -16,7 +16,7 @@ const Experience = () => {
                   src="/postPurchase.png"
                   width={350}
                   height={0}
-                  alt="ecommerce promotion"
+                  alt="post-purchase platform"
                   className="card-image"
                 />
               </div>
@@ -51,10 +51,10 @@ const Experience = () => {
             <div className="experience-card">
               <div className="card-image-container">
                 <Image
-                  src="/promotionImage.png"
+                  src="/promotion.png"
                   width={350}
                   height={0}
-                  alt="ecommerce promotion"
+                  alt="e-commerce promotion"
                   className="card-image"
                 />
               </div>
@@ -92,7 +92,7 @@ const Experience = () => {
                   src="/banking.png"
                   width={350}
                   height={0}
-                  alt="ecommerce promotion"
+                  alt="banking application"
                   className="card-image"
                 />
               </div>
