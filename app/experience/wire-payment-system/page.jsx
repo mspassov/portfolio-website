@@ -5,6 +5,7 @@ import {
   FaCity,
   FaCalendarAlt,
   FaCheck,
+  FaUsers,
   FaRegArrowAltCircleLeft,
 } from "react-icons/fa";
 
@@ -14,23 +15,29 @@ const page = () => {
       <div className="container">
         <Link href="/#experience" className="link">
           <div className="back-container">
-            <FaRegArrowAltCircleLeft className="back-icon"/>
+            <FaRegArrowAltCircleLeft className="back-icon" />
             Back to Experiences
           </div>
         </Link>
         <div className="details-flex">
           <div className="details-content">
-            <h2>Passport's Post-Purchase Platform</h2>
+            <h2>Promotion Engine Microservice</h2>
             <div className="quick-details">
               <FaCity className="details-icon" />
               <p>
-                <strong>Company: </strong>Passport Global
+                <strong>Company: </strong> Deloitte
+              </p>
+            </div>
+            <div className="quick-details">
+              <FaUsers className="details-icon" />
+              <p>
+                <strong>Client: </strong>Big 5 Canadian Bank
               </p>
             </div>
             <div className="quick-details">
               <FaCalendarAlt className="details-icon" />
               <p>
-                <strong>Date of Project: </strong>2023 - 2024
+                <strong>Date of Project: </strong>2021 - 2022
               </p>
             </div>
             <p>
@@ -38,28 +45,29 @@ const page = () => {
             </p>
             <ul className="details-highlights">
               <li>
-                Significantly improved Passport’s parcel tracking system by
-                defining the product strategy, prioritizing scope, and owning
-                the entire long-term roadmap; Passport's tracking system is used
-                by 1300+ merchants, improving operational efficiency and
-                providing end-users with real-time updates
+                Supported the wires modernization program for a big 5 Canadian
+                bank, by working in cross-functional pods, to conduct
+                requirements gathering and backlog grooming
               </li>
               <li>
-                Iterated on Passport’s Post-Purchase platform to build 0 to 1
-                features, by researching market gaps, conducting client
-                interviews, and collecting quantitative data. Findings were used
-                to roll-out key features including: localized marketing, a
-                Shopify recommendation engine, and a better package tracking
-                experience
+                Single-handedly led working sessions between the client, the
+                vendor, and the development team to understand client needs,
+                feasibility, and current processes
               </li>
               <li>
-                Introduced analytics to the Post-Purchase user journey, in order
-                to collect detailed user data, and apply a data-driven approach
-                to roadmap planning
+                Owned the full final technical solution, by writing
+                documentation, creating data flow & sequence diagrams, and
+                writing the technical specifications for the APIs
               </li>
               <li>
-                Efforts directly resulted in our 4.2/5 stars rating, and a
-                double digit percent decrease in customer support tickets
+                Very closely collaborated with the engineering, QA and Solution
+                Architect teams to brainstorm ideas, evaluate options, and
+                answer open questions
+              </li>
+              <li>
+                Efforts resulted in the first phase of the wire payment system
+                to be successfully deployed, automating legacy processes, and
+                modernizing the bank’s infrastructure
               </li>
             </ul>
             <div className="skills-summary">
@@ -69,19 +77,23 @@ const page = () => {
               <ul className="skills-list">
                 <li>
                   <FaCheck className="checkmark" />
-                  <p>Roadmapping</p>
+                  <p>Requirements Gathering</p>
                 </li>
                 <li>
                   <FaCheck className="checkmark" />
-                  <p>Cross-Functional Collaboration</p>
+                  <p>Technical Diagramming</p>
                 </li>
                 <li>
                   <FaCheck className="checkmark" />
-                  <p>Design Iterations</p>
+                  <p>Stakeholder Management</p>
                 </li>
                 <li>
                   <FaCheck className="checkmark" />
-                  <p>Data Analytics</p>
+                  <p>Backlog Refinement</p>
+                </li>
+                <li>
+                  <FaCheck className="checkmark" />
+                  <p>Feasibility Studies</p>
                 </li>
                 <li>
                   <FaCheck className="checkmark" />
@@ -89,11 +101,7 @@ const page = () => {
                 </li>
                 <li>
                   <FaCheck className="checkmark" />
-                  <p>Requirements Gathering</p>
-                </li>
-                <li>
-                  <FaCheck className="checkmark" />
-                  <p>Scope Prioritization</p>
+                  <p>System Design</p>
                 </li>
               </ul>
             </div>

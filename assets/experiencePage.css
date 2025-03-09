@@ -3,6 +3,16 @@
     color: white;
 }
 
+.back-container{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    .back-icon{
+        margin-right: 10px;
+    }
+}
+
 .details-img-container{
     display: flex;
     align-items: center;
@@ -18,7 +28,7 @@
 .experience-details .details-flex{
     background-color: var(--dark);
     border-radius: 12px;
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding: 2.5rem;
 }
 

@@ -1,11 +1,24 @@
 import React from "react";
 import Image from "next/image";
-import { FaCity, FaCalendarAlt, FaCheck, FaUsers } from "react-icons/fa";
+import Link from "next/link";
+import {
+  FaCity,
+  FaCalendarAlt,
+  FaCheck,
+  FaUsers,
+  FaRegArrowAltCircleLeft,
+} from "react-icons/fa";
 
 const page = () => {
   return (
     <section className="experience-details">
       <div className="container">
+        <Link href="/#experience" className="link">
+          <div className="back-container">
+            <FaRegArrowAltCircleLeft className="back-icon" />
+            Back to Experiences
+          </div>
+        </Link>
         <div className="details-flex">
           <div className="details-content">
             <h2>Promotion Engine Microservice</h2>
