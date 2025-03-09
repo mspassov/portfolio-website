@@ -35,8 +35,9 @@ const Experience = () => {
                   </p>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Delectus, similique.
+                  A product designed to improve the post-checkout experience for
+                  international customers, waiting for their e-commerce order to
+                  arrive
                 </p>
                 <Link
                   href="/experience/post-purchase-platform"
@@ -72,8 +73,9 @@ const Experience = () => {
                   </p>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Delectus, similique.
+                  An e-commerce microservice, enabling better promotion
+                  creation, and more flexible options across the client's suite
+                  of online stores
                 </p>
                 <Link
                   href="/experience/promotion-engine"
@@ -109,8 +111,9 @@ const Experience = () => {
                   </p>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Delectus, similique.
+                  A modernization initiative, transitioning and upgrading a
+                  bank’s legacy wire payment system into a new, cloud-based
+                  solution
                 </p>
                 <Link
                   href="/experience/wire-payment-system"
