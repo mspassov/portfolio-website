@@ -63,22 +63,38 @@ const Navbar = () => {
       <div className={`mobile-menu ${isOpen ? "active" : ""}`}>
         <ul className="mobile-menu-list">
           <li>
-            <Link href="/#about" className="link">
+            <Link
+              href="/#about"
+              className="link"
+              onClick={() => setIsOpen(false)}
+            >
               About
             </Link>
           </li>
           <li>
-            <Link href="/#experience" className="link">
+            <Link
+              href="/#experience"
+              className="link"
+              onClick={() => setIsOpen(false)}
+            >
               Experience
             </Link>
           </li>
           <li>
-            <Link href="/#projects" className="link">
+            <Link
+              href="/#projects"
+              className="link"
+              onClick={() => setIsOpen(false)}
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link href="/#contact" className="link">
+            <Link
+              href="/#contact"
+              className="link"
+              onClick={() => setIsOpen(false)}
+            >
               Contact
             </Link>
           </li>

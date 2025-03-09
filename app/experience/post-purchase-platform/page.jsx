@@ -35,15 +35,19 @@ const page = () => {
               <li>
                 Iterated on Passport’s Post-Purchase platform to build 0 to 1
                 features, by researching market gaps, conducting client
-                interviews, and collecting quantitative data. Findings were
-                used to roll-out key features including: localized marketing, a
+                interviews, and collecting quantitative data. Findings were used
+                to roll-out key features including: localized marketing, a
                 Shopify recommendation engine, and a better package tracking
                 experience
               </li>
               <li>
-                Introduced analytics to the Post-Purchase user journey, in
-                order to collect detailed user data, and apply a data-driven
-                approach to roadmap planning
+                Introduced analytics to the Post-Purchase user journey, in order
+                to collect detailed user data, and apply a data-driven approach
+                to roadmap planning
+              </li>
+              <li>
+                Efforts directly resulted in our 4.2/5 stars rating, and a
+                double digit percent decrease in customer support tickets
               </li>
             </ul>
             <div className="skills-summary">
