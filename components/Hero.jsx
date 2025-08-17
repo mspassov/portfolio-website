@@ -24,11 +24,11 @@ const Hero = () => {
             </p>
           </div>
 
-          <button className="btn">
-            <Link href="#contact" className="link" id="hero-btn">
-              Let's Chat!
+          <Link href="#contact" className="link" id="hero-btn">
+              <button className="btn">
+                Let's Chat!
+              </button>
             </Link>
-          </button>
         </div>
 
         <div className="image-content">
