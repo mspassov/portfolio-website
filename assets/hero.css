@@ -45,6 +45,10 @@
     font-weight: 600;
 }
 
+.text-content #hero-btn{
+    color: white;
+}
+
 .text-content #hero-btn:hover{
     color: white;
 }
